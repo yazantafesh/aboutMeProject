@@ -1,0 +1,37 @@
+body{
+    background-color: darksalmon;
+}
+header{
+    background-color: #2f5d62;
+}
+h1{
+    font-size: 1cm;
+    text-align: center;
+}
+.bio{
+    font-size: 0.5cm;
+    margin-top: 5mm;
+}
+.exp{
+    font-size: 0.5cm;
+    font-weight: bold;
+}
+.edu{
+    font-size: 0.5cm;
+    font-weight: bold;
+}
+.countries{
+    font-size: 0.5cm;
+    font-weight: bold;
+}
+ul{
+    list-style-type: square;
+    background: burlywood;
+    margin-left: 35px;
+    margin-right: 350px;
+}
+footer{
+    background-color: #2f5d62 ;
+    text-align: center;
+    font-size: 0.6cm;
+}
