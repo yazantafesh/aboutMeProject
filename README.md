@@ -24,3 +24,7 @@ On lab03 I edited the html file and turned some of the information into lists.
 I also added a sixth question that includes guessing a number with alerts indicating if it's higher or lower than the user's input while giving them only 4 chances.
 Then I added a seventh question with multiple correct answers and used loops and arrays to make it possible.
 And finally the score will be shown to the user.
+
+navigator:yazan tafesh
+dirver:loulia kabbani
+we work on this lab together.

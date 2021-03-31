@@ -5,6 +5,9 @@ let score=0;
 let userName=prompt('Hello, What is your name?');
 alert('Welcome to my page '+userName);
 
+function question1(){
+
+
 let myName=prompt('Is my name Yazan?');
 if (myName.toLowerCase() ==='yes' || myName.toLowerCase() ==='y') {
 //   console.log('You are correct!');
@@ -17,7 +20,10 @@ if (myName.toLowerCase() ==='yes' || myName.toLowerCase() ==='y') {
 } else{
   alert('Please answer with a yes or no only');
 }
+}
+question1();
 
+function question2(){
 let age=prompt('Am I 25 years old?');
 if (age.toLowerCase() ==='yes' || age.toLowerCase() ==='y') {
 //   console.log('You are correct!');
@@ -29,7 +35,10 @@ if (age.toLowerCase() ==='yes' || age.toLowerCase() ==='y') {
 } else{
   alert('Please answer with a yes or no only');
 }
+}
+question2();
 
+function question3(){
 let city=prompt('Do I live in Al Zarqa?');
 if (city.toLowerCase() ==='yes' || city.toLowerCase() ==='y') {
 //   console.log('You are wrong!');
@@ -42,7 +51,11 @@ if (city.toLowerCase() ==='yes' || city.toLowerCase() ==='y') {
 } else{
   alert('Please answer with a yes or no only');
 }
+}
+question3();
 
+function question4() {
+  
 let uniMajor=prompt('Am I an accountant?');
 if (uniMajor.toLowerCase() ==='yes' || uniMajor.toLowerCase() ==='y') {
 //   console.log('You are wrong!');
@@ -56,8 +69,10 @@ else if(uniMajor.toLowerCase() ==='no'|| uniMajor.toLowerCase() ==='n') {
 } else{
   alert('Please answer with a yes or no only');
 }
-
-
+}
+question4();
+function question5() {
+    
 let university=prompt('Did I graduate from the University of Jordan?');
 if (university.toLowerCase() ==='yes' || university.toLowerCase() ==='y') {
 //   console.log('You are correct!');
@@ -69,6 +84,11 @@ if (university.toLowerCase() ==='yes' || university.toLowerCase() ==='y') {
 } else{
   alert('Please answer with a yes or no only');
 }
+}
+question5();
+
+function question6() {
+  
 
 for(let i=0; i<4; i++){
 
@@ -89,6 +109,10 @@ for(let i=0; i<4; i++){
   }
 }
 alert('The correct answer is 7');
+}
+question6();
+
+function question7() {
 let out=false;
 let favFood=['pizza', 'burger', 'steak', 'mlokheye', 'msakhan', 'mansaf'];
 for(let i=0; i<6;i++){
@@ -106,7 +130,9 @@ for(let i=0; i<6;i++){
   }
 }
 alert('The correct answers are '+favFood);
+}
+question7();
 
 alert(`You scored ${score} out of 7`);
 
-alert('Thank you for visiting my website ' +userName);
+alert(`Thank you for visiting my website ${userName} `);
