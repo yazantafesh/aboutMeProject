@@ -56,7 +56,6 @@ question3();
 
 function question4() {
   
-
 let uniMajor=prompt('Am I an accountant?');
 if (uniMajor.toLowerCase() ==='yes' || uniMajor.toLowerCase() ==='y') {
 //   console.log('You are wrong!');
@@ -73,10 +72,7 @@ else if(uniMajor.toLowerCase() ==='no'|| uniMajor.toLowerCase() ==='n') {
 }
 question4();
 function question5() {
-  
-
-
-
+    
 let university=prompt('Did I graduate from the University of Jordan?');
 if (university.toLowerCase() ==='yes' || university.toLowerCase() ==='y') {
 //   console.log('You are correct!');
@@ -88,13 +84,13 @@ if (university.toLowerCase() ==='yes' || university.toLowerCase() ==='y') {
 } else{
   alert('Please answer with a yes or no only');
 }
-
-for(let i=0; i<4; i++){
 }
 question5();
 
 function question6() {
   
+
+for(let i=0; i<4; i++){
 
   let guessNum=prompt('Guess what my favourite number is. Between 1 and 10');
   if (guessNum>7) {
@@ -116,6 +112,7 @@ alert('The correct answer is 7');
 }
 question6();
 
+function question7() {
 let out=false;
 let favFood=['pizza', 'burger', 'steak', 'mlokheye', 'msakhan', 'mansaf'];
 for(let i=0; i<6;i++){
@@ -133,7 +130,9 @@ for(let i=0; i<6;i++){
   }
 }
 alert('The correct answers are '+favFood);
+}
+question7();
 
 alert(`You scored ${score} out of 7`);
 
-alert('Thank you for visiting my website ' +userName);
+alert(`Thank you for visiting my website ${userName} `);
