@@ -23,7 +23,7 @@ if (myName.toLowerCase() ==='yes' || myName.toLowerCase() ==='y') {
 }
 question1();
 
-
+function question2(){
 let age=prompt('Am I 25 years old?');
 if (age.toLowerCase() ==='yes' || age.toLowerCase() ==='y') {
 //   console.log('You are correct!');
@@ -35,6 +35,9 @@ if (age.toLowerCase() ==='yes' || age.toLowerCase() ==='y') {
 } else{
   alert('Please answer with a yes or no only');
 }
+}
+question2();
+
 
 let city=prompt('Do I live in Al Zarqa?');
 if (city.toLowerCase() ==='yes' || city.toLowerCase() ==='y') {
