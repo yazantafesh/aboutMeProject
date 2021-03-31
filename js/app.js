@@ -93,6 +93,9 @@ for(let i=0; i<4; i++){
 }
 question5();
 
+function question6() {
+  
+
   let guessNum=prompt('Guess what my favourite number is. Between 1 and 10');
   if (guessNum>7) {
     alert('Too High');
@@ -110,6 +113,9 @@ question5();
   }
 }
 alert('The correct answer is 7');
+}
+question6();
+
 let out=false;
 let favFood=['pizza', 'burger', 'steak', 'mlokheye', 'msakhan', 'mansaf'];
 for(let i=0; i<6;i++){
