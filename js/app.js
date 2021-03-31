@@ -54,6 +54,9 @@ if (city.toLowerCase() ==='yes' || city.toLowerCase() ==='y') {
 }
 question3();
 
+function question4() {
+  
+
 let uniMajor=prompt('Am I an accountant?');
 if (uniMajor.toLowerCase() ==='yes' || uniMajor.toLowerCase() ==='y') {
 //   console.log('You are wrong!');
@@ -67,6 +70,8 @@ else if(uniMajor.toLowerCase() ==='no'|| uniMajor.toLowerCase() ==='n') {
 } else{
   alert('Please answer with a yes or no only');
 }
+}
+question4();
 
 
 let university=prompt('Did I graduate from the University of Jordan?');
