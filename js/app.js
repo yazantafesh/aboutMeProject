@@ -38,7 +38,7 @@ if (age.toLowerCase() ==='yes' || age.toLowerCase() ==='y') {
 }
 question2();
 
-
+function question3(){
 let city=prompt('Do I live in Al Zarqa?');
 if (city.toLowerCase() ==='yes' || city.toLowerCase() ==='y') {
 //   console.log('You are wrong!');
@@ -51,6 +51,8 @@ if (city.toLowerCase() ==='yes' || city.toLowerCase() ==='y') {
 } else{
   alert('Please answer with a yes or no only');
 }
+}
+question3();
 
 let uniMajor=prompt('Am I an accountant?');
 if (uniMajor.toLowerCase() ==='yes' || uniMajor.toLowerCase() ==='y') {
