@@ -5,6 +5,9 @@ let score=0;
 let userName=prompt('Hello, What is your name?');
 alert('Welcome to my page '+userName);
 
+function question1(){
+
+
 let myName=prompt('Is my name Yazan?');
 if (myName.toLowerCase() ==='yes' || myName.toLowerCase() ==='y') {
 //   console.log('You are correct!');
@@ -17,6 +20,9 @@ if (myName.toLowerCase() ==='yes' || myName.toLowerCase() ==='y') {
 } else{
   alert('Please answer with a yes or no only');
 }
+}
+question1();
+
 
 let age=prompt('Am I 25 years old?');
 if (age.toLowerCase() ==='yes' || age.toLowerCase() ==='y') {
