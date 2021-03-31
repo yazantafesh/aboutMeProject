@@ -72,6 +72,9 @@ else if(uniMajor.toLowerCase() ==='no'|| uniMajor.toLowerCase() ==='n') {
 }
 }
 question4();
+function question5() {
+  
+
 
 
 let university=prompt('Did I graduate from the University of Jordan?');
@@ -87,6 +90,8 @@ if (university.toLowerCase() ==='yes' || university.toLowerCase() ==='y') {
 }
 
 for(let i=0; i<4; i++){
+}
+question5();
 
   let guessNum=prompt('Guess what my favourite number is. Between 1 and 10');
   if (guessNum>7) {
