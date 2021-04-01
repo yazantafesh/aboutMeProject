@@ -25,6 +25,6 @@ I also added a sixth question that includes guessing a number with alerts indica
 Then I added a seventh question with multiple correct answers and used loops and arrays to make it possible.
 And finally the score will be shown to the user.
 
-navigator:yazan tafesh
-dirver:loulia kabbani
-we work on this lab together.
+Navigator: Yazan Tafesh
+Dirver:Loulia Kabbani
+We worked on this lab together.
